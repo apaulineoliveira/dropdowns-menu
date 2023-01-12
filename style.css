@@ -19,10 +19,16 @@ li {
     list-style-type: none;
 }
 
-#ic {
-    font-size: 15px;
-    padding: 10px;
+#icones {
+    font-size: 18px;
+    padding: 9px;
+    margin-left: 7vh;
 }
+
+#icones:hover {
+    color:rgb(213, 213, 213);
+}
+
 .split-button {
     position: relative;
     display: flex;
