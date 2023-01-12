@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #11ad9b;
+}
+
+.split-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 8px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    color: #f9f9f9;
+    font-size: 16px;
+    
+}
+
+.split-button > button:nth-child(1) {
+    padding: 0 24px;
+}
+
+.split-button > button:nth-child(2) {
+    width: 60px;
+    background: rgba(0, 0, 0, 0.12);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
