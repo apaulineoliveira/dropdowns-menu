@@ -13,6 +13,16 @@ body {
     background: #11ad9b;
 }
 
+li {
+    margin-left: 2vh;
+    font-size: 3vh;
+    list-style-type: none;
+}
+
+#ic {
+    font-size: 15px;
+    padding: 10px;
+}
 .split-button {
     position: relative;
     display: flex;
@@ -43,4 +53,30 @@ button {
     background: rgba(0, 0, 0, 0.12);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+.menu {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 68px;
+    z-index: 1;
+    width: 100%;
+    translate: -30px 0;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.45);
+    transition: 0.4s;
+}
+
+.menu.open {
+    translate: 0 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu > button {
+    gap: 10px;
+    padding: 0 18px;
 }
