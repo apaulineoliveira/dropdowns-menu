@@ -5,24 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/076928e2cc.js" crossorigin="anonymous"></script>
     <title>Dropdown menu</title>
 </head>
 <body>
     <div class="split-button">
         <button onclick="handleMainButtonClicked()">
-        Dashboard
+        Dashboard        
         </button>
 
-        <button onclick="toggleDropdown()">
+        <button onclick="toggleDropdown()" >
+
             <span id="chevron">
-                expand_more
+                <li><a href=""></a><i class="fa-sharp fa-solid fa-arrow-down"></i></li>
             </span>
+           
         </button>
 
         <div id="menu" class="menu">
             <button onclick="handleMenuButtonClicked()">
-                <span>build</span>
-                Tools
+                <li id="icones"><i class="fa-sharp fa-solid fa-gear"></i></li>
+                
+               
+                <div id="menu" class="menu">
+                    <button onclick="handleMenuButtonClicked()">
+                        <li id="icones"><i class="fa-sharp fa-solid fa-pencil"></i></li>
+                     
+
+                        <div id="menu" class="menu">
+                            <button onclick="handleMenuButtonClicked()">
+                                <li id="icones"><i class="fa-solid fa-envelope"></i></li>                
+            
             </button>
         </div>
     </div>
