@@ -3,17 +3,17 @@ chevron = document.getElementById("chevron");
 
 const toggleDropdown = () => {
     menu.classList.toggle("open");
-    chevron.innerHTML = 
-        !menu.classList.contains("open")
-        ? "expand_more"
-        : "close";
+    chevron.querySelector = !menu.classList.contains("open")
+        ? ""
+        : "" ;
 };
 
 const handleMainButtonClicked = () =>
-    alert("Main button clicked!");
+    alert("Botão clicado!");
 
 const handleMenuButtonClicked = () => {
     toggleDropdown();
-    alert("Menu button clicked!");
+    alert("Botão clicado!");
 };
     
+
