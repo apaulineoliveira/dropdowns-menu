@@ -9,3 +9,14 @@ Menu Dropdown feito em Javascript (split button).
 <br>
 
   <p>Na estilização do projeto (css) </p>
+
+<br></br>
+
+<h1>🧵 Purpose</h1>
+<p>The goal of this project was to build a dropdown menu made in html, css, bootstrap (css framework) and javascript.<br>The initial idea was to make this repository a compiler of projects for dropdown menus to strengthen even more the knowledge in javascript and experience new ways of making menus with this aesthetic. Over time updates will be made to the models mentioned above. </p>
+
+<h1>About the code</h1>
+    <p>Inside the html file I chose to create simple and intuitive codes with the aim of facilitating its understanding and assertiveness; I built the menu items in list format with <code>li</code> and inside each item I added a <code>button onclick</code> tag with the function <code>toggleDropdown()</code> which will be responsible for opening and closing the menu, and determining what will be inside it. In addition, I used the <code>i</code> element to define the icons of the bootstrapped elements. </p>
+<br>
+
+    In project styling (css):
